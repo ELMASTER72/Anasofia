@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    width: 100vw;
+    height: 15vh;
+    background: url(./Img/fondo.webp);
+    background-size: cover;
+    border: solid 2px #000;
+}
+
+h1 {
+    margin-left: 5px;
+    margin-top: 20px;
+    font-size: 4rem;
+    -webkit-text-stroke: 0.5px violet;
+    font-family: 'Lobster', cursive;
+}
+
+nav{
+    margin-right: 5px;
+    margin-left: 20px;
+    margin-top: 10px;
+    float: right;
+}
+
+nav ul li{
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    background: #000000;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+nav ul li a:hover{
+    background: #c2c2c2
+}
+
+form {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    border: 1px solid #000000;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+label {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-family: 'Lobster', cursive;
+}
+
+input {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 10px;
+    border-radius:10px;
+}
+
+.hombre {
+    margin-left: 2rem;
+}
+
+.mujer {
+    margin-left: 2rem;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-right: 25rem;
+    margin-left: 25rem;
+}
+
+.button {
+    cursor: pointer;
+}
+
+.button:hover {
+    background: url(./Img/fondo.webp);
+    background-size: cover;
+}
+
+footer {
+    text-align: center;
+    background: url(./Img/fondo.webp);
+    background-size: cover;
+    margin-top: 6rem;
+}
+
+h4 {
+    font-size: 4rem;
+    -webkit-text-stroke: 0.5px violet;
+    font-family: 'Lobster', cursive;
+    margin-top: 2rem;
+}

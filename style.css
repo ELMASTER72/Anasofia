@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    width: 100vw;
+    height: 15vh;
+    background: url(./Img/fondo.webp);
+    background-size: cover;
+    border: solid 2px #000;
+}
+
+h1 {
+    margin-left: 5px;
+    margin-top: 20px;
+    font-size: 4rem;
+    -webkit-text-stroke: 0.5px violet;
+    font-family: 'Lobster', cursive;
+}
+
+nav{
+    margin-right: 5px;
+    margin-left: 20px;
+    margin-top: 10px;
+    float: right;
+}
+
+nav ul li{
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    background: #000000;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+nav ul li a:hover{
+    background: #c2c2c2
+}
+
+section {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 4rem;
+    font-family: 'Lobster', cursive;
+}
+
+p {
+    margin-top: 1.5rem;
+    font-size: 2rem;
+}
+
+hr {
+    margin-top: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+div {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 25vw;
+    height: 35vh;
+    border: solid 2px #000;
+    display: block;
+    margin-top: 2rem;
+    margin-left: 7rem;
+    background: url(./Img/fondo.webp);
+    background-size: cover;
+}
+
+img {
+    border: solid 1.5px #000;
+    width: 20vw;
+    height: 20vh;
+    margin-left: 0.2rem;
+    margin-top: 1.5rem;
+}
+
+button {
+    padding: 2.5px;
+    width: 5vw;
+    height: 2vh;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.btnVer {
+    margin-left: 1rem;
+}
+
+button:hover {
+    background: violet;
+}
+
+.section {
+    text-align: center;
+    float: center;
+    display: flex;
+}
+
+footer {
+    text-align: center;
+    background: url(./Img/fondo.webp);
+    background-size: cover;
+    margin-top: 4rem;
+}
+
+h4 {
+    font-size: 4rem;
+    -webkit-text-stroke: 0.5px violet;
+    font-family: 'Lobster', cursive;
+    margin-top: 2rem;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Yoga</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">inicio</a></li>
+                <li><a href="#">formulario</a></li>
+                <li><a href="#">otra</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form method="post">
+        <label for="nombre">Nombre: </label>
+        <input type="text" name="nombre" placeholder="Nombre: ">
+        <hr />
+        <label for="apellido">Apellido: </label>
+        <input type="text" name="apellido" placeholder="Apellido: ">
+        <hr />
+        <label for="telefono">Telefono: </label>
+        <input type="number" name="telefono" placeholder="Telefono: ">
+        <hr />
+        <label for="genero">Genero: </label>
+        <label class="mujer" for="mujer">Mujer: </label>
+        <input type="radio" name="genero" placeholder="Genero: ">
+        <label class="hombre" for="hombre">Hombre: </label>
+        <input type="radio" name="hombre" placeholder="Hombre: ">
+        <hr />
+        <label for="correo">Correo Electronico: *</label>
+        <input type="email" name="correo" placeholder="Correo Electronico: " required>
+        <hr />
+        <label for="contraseña">Contraseña: </label>
+        <input type="password" name="contraseña" placeholder="Contraseña: " required>
+        <hr />
+        <input class="button" type="submit" value="Enviar">
+    </form>
+    <footer>
+        <h4>Yoga</h4>
+    </footer>
+</body>
+</html>
